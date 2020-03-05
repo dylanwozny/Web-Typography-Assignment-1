@@ -1,0 +1,33 @@
+{
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "~/../css/",
+        }
+    ],
+    "window.zoomLevel": 1,
+    "liveSassCompile.settings.autoprefix": [
+        "> 1%",
+        "last 2 versions"
+    ],
+    // global configuration file setup
+    "stylelint.config": {
+        "rules": {
+            "selector-max-class": 2,
+            "selector-max-compound-selectors": 2,
+            "no-descending-specificity": true
+        }
+    },
+    // turn off css.validation: false
+    "css.validate": false,
+    "html.format.enable": false,
+    //format on save
+    "editor.formatOnSave": true,
+    // word wrap on 
+    "editor.wordWrap": "on",
+    // NO text based suggestions while typing
+    "editor.wordBasedSuggestions": false,
+    "workbench.iconTheme": "material-icon-theme",
+}

@@ -1,0 +1,249 @@
+/* ----------------------Do basic Line Length for formatting--------------------- */
+/* ----------------------Customize margin spacing --------------------- */
+/* ----------------------make heading closer to content ! closer to content --------------------- */
+/*  */
+
+html {
+  /* because REM is relative to the parent element ! */
+  /* multiples of 2 */
+  font-size: 18px;
+  background-color: #dcd0cd;
+}
+
+body {
+  background-color: white;
+  font-family: "Karla", sans-serif;
+
+  /* grid setup */
+  /* background-image: linear-gradient(#0ff 1px, transparent 1px); */
+  background-size: auto 1.5rem;
+  line-height: 1.5;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+footer {
+  font-style: italic;
+  color: #777;
+}
+
+/*********************** Typography ***********************/
+
+h2,
+ul,
+p {
+  margin-bottom: 1.5rem;
+}
+/* 100% was messing it up, it should naturally fit parents width when it has padding... */
+section {
+  margin-bottom: 6rem;
+  padding: 0rem 1rem;
+}
+
+p {
+  font-size: 1rem;
+  margin-top: 0;
+  max-width: 540px;
+  line-height: 1.5rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Trade Winds";
+  font-weight: 400;
+}
+
+/*  */
+h1 {
+  font-size: 4.5rem;
+  line-height: 6rem;
+  margin-top: 0rem;
+  width: 25rem;
+}
+
+h2 {
+  font-size: 2.52rem;
+  line-height: 4.5rem;
+  margin: 0 0 1.5rem 0;
+  color: #48130f;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 3rem;
+  font-weight: 800;
+  margin: 0 0 1.5rem 0;
+}
+
+h5,
+h6 {
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  color: black;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+}
+
+.small {
+  font-size: 0.8em;
+}
+
+/* ---------------------formatting webpage------------------------------ */
+/* cut out filter.. */
+/* header */
+/* https://coolors.co/fe5d26-f2c078-faedca-c1dbb3-7ebc89 */
+/* http://typ.io/ */
+
+header {
+  /* background-color: #7f534b; */
+  height: 61.5rem;
+}
+
+.full-page-span {
+  /* max-width: 100%; */
+  /* background-color: #322e31; */
+  /* background-color: #8c705f; */
+  /* color: white; */
+}
+
+.image-container {
+  width: 682px;
+}
+
+header img {
+  width: 380px;
+  padding-right: 0.5rem;
+  height: 380px;
+  padding-top: 10rem;
+  float: right;
+}
+
+h1 {
+  width: 682px;
+  background-color: #644a4e;
+  color: white;
+  margin-left: 0.5rem;
+  padding: 1rem;
+  height: calc(100% - 11rem);
+  margin-bottom: 0rem;
+  padding-top: 10rem;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  height: 60.5rem;
+  border: solid 9px #644a4e;
+}
+
+.flex-container-column {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0rem;
+  justify-content: space-between;
+}
+
+.flex-container-column li {
+  flex-basis: 25.5%;
+  padding: 1.5rem;
+  /* text-align: center; */
+  background-color: #644a4e;
+  color: white;
+  margin-bottom: 3rem;
+  box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.5);
+}
+
+li p {
+  line-height: 1.5rem;
+}
+
+li h3 {
+  text-align: center;
+}
+
+.head-container {
+  /* justify-content: space-between; */
+  width: calc(100% - 1rem);
+  margin: 0 auto;
+  /* padding-top: 6rem; */
+}
+
+.clearfix p {
+  float: left;
+}
+
+.clearfix p:first-child {
+  padding-right: 54px;
+}
+
+.images {
+  float: left;
+  width: 606px;
+  height: 189px;
+  padding-bottom: 1.5rem;
+  border-bottom: #ab3e17 2px solid;
+}
+
+.images img {
+  float: left;
+  height: 189px;
+  padding-right: 45px;
+}
+
+.images img:last-child {
+  padding-right: 0;
+}
+
+.images-2 {
+  width: 100%;
+  height: 347px;
+  padding: 1.5rem 0rem;
+  border-bottom: #ab3e17 2px solid;
+  border-top: #ab3e17 2px solid;
+  margin: 1.5rem 0 3rem 0;
+}
+
+.images-2 img {
+  padding-right: 32px;
+  height: 100%;
+}
+
+.bold {
+  font-size: 1.2rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.center-content {
+  padding: 1.5rem;
+  background-color: #ab3e17;
+  color: white;
+  margin-bottom: 1.5rem;
+  width: 486px;
+  box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.5);
+}
+
+.col {
+  width: 540px;
+  margin-right: 54px;
+}
+
+.clearfix .col p {
+  padding: 0rem;
+}
+
+.clearfix div {
+  float: left;
+}
+
+blockquote {
+  margin: 0rem;
+}
+
+.remove-bottom-margin {
+  margin-bottom: 0rem;
+}
+/* ---------------------break points (optional !)------------------------------ */
